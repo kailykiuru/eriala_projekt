@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgb(225, 225, 225);
+  }
+  h1 {
+    color: black;
+  }
+  h1 {
+    font-family: cursive;
+  }
+  h2 {
+    font-family: cursive;
+  }
+  p {
+    color: black;
+    font-family: cursive;
+  }
+    img {
+        box-shadow: 10px 10px 20px rgb(40, 39, 39);
+      }
+      
