@@ -1,21 +1,41 @@
 
 body {
     background-color: rgb(225, 225, 225);
-  }
-  h1 {
-    color: black;
-  }
-  h1 {
-    font-family: cursive;
-  }
-  h2 {
-    font-family: cursive;
-  }
-  p {
-    color: black;
-    font-family: cursive;
-  }
-    img {
-        box-shadow: 10px 10px 20px rgb(40, 39, 39);
-      }
+}
+h1 {
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+h2 {
+  font-family:"serif";
+  text-align: left;
+}
+p {
+  color: black;
+  font-family:'Segoe UI';
+  text-align: justify;
+}
+img {
+    box-shadow: 10px 10px 20px rgb(40, 39, 39);
+    width: 400px;
+    height: auto;
+    opacity: 0.9;
+    transition: width 2s ease-in-out, height 4s ease-in-out; 
+}
+img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+ol {
+  color: black;
+  font-family: cursive;
+  font-size: large;
+}
+a {
+  font-family: "Helvetica";
+  font-size: medium;
+  color: blue;
+  text-decoration: solid;
+}
       
