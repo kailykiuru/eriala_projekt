@@ -1,17 +1,60 @@
 
 body {
-    background-color: rgb(225, 225, 225);
+    background-image: url(lipp.jpg);
+    background-size: 210% 210%;
   }
-  h1 {
+h1 {
     color: black;
   }
-  h1 {
+h1 {
     font-family: cursive;
   }
-  h2 {
+h2 {
     font-family: cursive;
   }
-  p {
+p {
     color: black;
     font-family: cursive;
+    text-align:center;
+    font-size:30px;
   }
+
+.Ülemine {
+  text-align:center
+}
+
+.nupugrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+}
+
+img {
+  width:400px;
+  height:auto;
+  transition: width 2s ease-in-out, height 4s ease-in-out; 
+
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.vasak {
+  padding:20px;
+}
+
+.kesk {
+  padding:20px;
+}
+
+.parem {
+  padding:20px;
+}
+
+.piltkesk {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
