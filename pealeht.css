@@ -1,8 +1,9 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to bottom, rgb(227, 207, 207), #555151, #000000);
+    background-attachment: fixed;
   }
 h1 {
     color: black;
