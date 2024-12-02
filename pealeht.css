@@ -40,7 +40,6 @@ p {
 
 img {
   width:400px;
-  height:auto;
   transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; 
    
 
@@ -71,4 +70,5 @@ img:hover {
   box-shadow: 1em 1em 2em rgb(41, 40, 40);
   width: 100%;
   max-width: 100%;
+  height:auto;
 }
